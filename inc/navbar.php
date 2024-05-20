@@ -3,7 +3,7 @@
             <h1>Blog entrainement</h1>
             <span>Le concept était intéressant</span>
         </div>
-        <div class="liens">
+        <div class="liens" style='display:<?php if((basename($_SERVER['PHP_SELF'])=='pageconnexion.php')||(basename($_SERVER['PHP_SELF'])=='pageinscription.php')) echo('none') ?>'>
             <nav>
                 <img src="./images/menubtn.png" alt="no image" id='menubtn'>
                 <ul>

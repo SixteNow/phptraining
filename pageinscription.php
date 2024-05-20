@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <?php include "./inc/navbar.php";?>
     <div class='container'>
         <div class="row center-form">
             <div class="col-md-6">
@@ -36,7 +37,7 @@
                 </form>
             </div>
         </div>
-        <?php include './inc/footer.php';?>
     </div>
+    <?php include './inc/footer.php';?>
 </body>
 </html>

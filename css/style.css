@@ -6,6 +6,14 @@
 header {
   background-color: rgba(219, 214, 214, 0.856);
 }
+body {
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-attachment: fixed;
+}
 .titre {
   text-align: center;
   color: rgba(29, 25, 25, 0.76);
