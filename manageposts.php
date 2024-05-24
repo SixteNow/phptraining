@@ -35,8 +35,10 @@
                         <h1><?php echo($row["titre"])?></h1>
                         <p><?php echo(substr($row["contenu"],0,100))?>...</p>
                         <a href="./voirpost.php?id=<?php echo ($row["idpost"]) ?>" style='text-align:right;display:block;'>Voir plus</a>
-                        <button class="btn btn-success">Modifier</button>
-                        <button class="btn btn-danger supp" id="<?php echo($row["idpost"])?>">Supprimer</button>
+                        <div style='display:<?php if ($_GET['auteur']!=$_SESSION['pseudo']) echo "none";?>'>
+                            <button class="btn btn-success">Modifier</button>
+                            <button class="btn btn-danger supp" id="<?php echo($row["idpost"])?>">Supprimer</button>
+                        </div>
                     </div>
                 <?php
                 }
