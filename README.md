@@ -1,6 +1,6 @@
 # Projet de Blog
 
-Bienvenue dans le Projet de Blog ! Ce projet est un blog simple mais entièrement fonctionnel construit en utilisant HTML, CSS, PHP et JavaScript. Il inclut des fonctionnalités telles que l'authentification des utilisateurs, la création de billets de blog et les commentaires.
+Bienvenue dans le Projet de Blog ! Ce projet est un blog simple mais entièrement fonctionnel construit en utilisant HTML, CSS, PHP et JavaScript. Il inclut des fonctionnalités telles que l'authentification des utilisateurs, la création de publications sur le blog et les commentaires.
 
 ## Table des Matières
 
