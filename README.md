@@ -86,6 +86,6 @@ Rien pour le moment xD
 
 ## Test
 
-Vous pouvez tester le site web ici(Certaines fonctionnalités seront indisponibles): http://testwebsite.wuaze.com/index.php
+Vous pouvez tester le site web ici: http://testwebsite.wuaze.com/index.php
 
 ---
