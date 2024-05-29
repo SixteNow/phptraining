@@ -2,6 +2,12 @@
         <div class="titre" >
             <h1>Blog entrainement</h1>
             <span>Le concept était intéressant</span>
+            <div style="display:flex;align-items:center;gap:5px;;justify-content:center; margin-top:20px;">
+                Mode sombre
+                <div id='mdsombre'>
+                    <div class="cercle"></div>
+                </div>
+            </div>
         </div>
         <div class="liens" style='display:<?php if((basename($_SERVER['PHP_SELF'])=='pageconnexion.php')||(basename($_SERVER['PHP_SELF'])=='pageinscription.php')) echo('none') ?>'>
             <nav>

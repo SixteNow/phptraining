@@ -6,6 +6,52 @@
 header {
   background-color: rgba(219, 214, 214, 0.856);
 }
+/* Mode combre toggler */
+#mdsombre {
+  width: 40px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.5s;
+}
+#mdsombre.right {
+  background-color: white;
+}
+#mdsombre .cercle {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+#mdsombre .cercle.right {
+  left: 100%;
+  transform: translateX(-100%);
+  background-color: black;
+}
+
+/* ------------------------ */
+p,
+h1 {
+  color: black;
+}
+.container form {
+  padding: 10px;
+}
+.container form input,
+.container form textarea {
+  border: 1px solid white;
+}
+.container .row div {
+  padding: 10px;
+}
+button {
+  cursor: pointer;
+}
 body {
   background-image: url("../images/background.png");
   background-position: center;
@@ -43,6 +89,9 @@ body {
 .liens ul a {
   text-decoration: none;
   padding: 20px;
+}
+.liens ul a:hover {
+  background-color: rgb(60, 60, 60);
 }
 .liens img {
   display: none;
@@ -103,6 +152,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 5px;
+}
+.post-bottom p {
+  color: white;
 }
 .post-bottom {
   display: flex;
@@ -140,7 +193,7 @@ body {
 }
 .foot {
   margin-top: 30px;
-  background-color: black;
+  background-color: rgb(31, 31, 31);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -156,6 +209,7 @@ body {
 }
 .foot p {
   margin: 0;
+  color: white;
 }
 
 .modal-suppr {
