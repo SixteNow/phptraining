@@ -13,6 +13,7 @@ Bienvenue dans le Projet de Blog ! Ce projet est un blog simple mais entièremen
 - [Contribution](#contribution)
 - [Licence](#licence)
 - [Contact](#contact)
+- [Test](#test)
 
 ## Fonctionnalités
 
@@ -82,5 +83,9 @@ NB: J'utilise WAMP pour aller plus vite
 ## Contact
 
 Rien pour le moment xD
+
+## Test
+
+Vous pouvez tester le site web ici(Certaines fonctionnalités seront indisponibles): http://testwebsite.wuaze.com/index.php
 
 ---
